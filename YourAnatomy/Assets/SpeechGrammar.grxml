@@ -1,0 +1,77 @@
+<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>MENU</tag>
+        <one-of>
+          <item> menu </item>
+          <item> open menu </item>
+          <item> change picture </item>
+          <item> change </item>
+          <item> menus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>EXIT</tag>
+        <one-of>
+          <item> exit </item>
+          <item> get out </item>
+          <item> go back </item>
+          <item> exit menu </item>
+          <item> close </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CAPTURE</tag>
+        <one-of>
+          <item> capture </item>
+          <item> snapshot </item>
+          <item> cheese </item>
+          <item> snap shot </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT</tag>
+        <one-of>
+          <item> turn right </item>
+          <item> go right </item>
+          <item> right </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RUN</tag>
+        <one-of>
+          <item> run </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>JUMP</tag>
+        <one-of>
+          <item> jump </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RAINFOREST</tag>
+        <one-of>
+          <item> rainforest </item>
+          <item> jungle </item>
+       	  <item> forest </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>JELLO</tag>
+        <one-of>
+          <item> hello </item>
+          <item> hi </item>
+          <item> wave </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MASTER</tag>
+        <one-of>
+          <item> master </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
